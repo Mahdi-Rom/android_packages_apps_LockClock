@@ -28,9 +28,9 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:paddingTop="8dip"
-        android:paddingLeft="8dip"
-        android:paddingRight="8dip"
+        android:paddingTop="4dip"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
         android:gravity="center"
         android:src="@android:drawable/ic_dialog_alert" />
 
@@ -40,13 +40,13 @@
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@id/weather_image"
         android:orientation="horizontal"
-        android:padding="4dip" >
+        android:padding="2dip" >
 
         <TextView
             android:id="@+id/weather_city"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="14sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             android:layout_alignParentRight="true"
             android:gravity="right"
@@ -64,7 +64,7 @@
             android:gravity="right"
             android:singleLine="true"
             android:ellipsize="marquee"
-            android:textSize="12sp"
+            android:textSize="22sp"
             android:textColor="?android:attr/textColorPrimary"
             style="@style/label_shadow" />
 
@@ -75,7 +75,7 @@
             android:gravity="right"
             android:layout_below="@id/weather_condition"
             android:layout_alignParentRight="true"
-            android:textSize="8sp"
+            android:textSize="12sp"
             android:textColor="?android:attr/textColorSecondary"
             style="@style/label_shadow" />
 
@@ -94,15 +94,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:textSize="20sp"
+            android:textSize="32sp"
             android:textColor="?android:attr/textColorPrimary"
             style="@style/label_shadow" />
 
         <ImageView
             android:id="@+id/weather_divider"
             android:layout_below="@id/weather_temp"
-            android:layout_width="44dip"
-            android:layout_height="1dip"
+            android:layout_width="52dip"
+            android:layout_height="2dip"
             android:background="@android:drawable/divider_horizontal_dark" />
 
         <TextView
@@ -112,7 +112,7 @@
             android:layout_below="@id/weather_divider"
             android:layout_centerHorizontal="true"
             android:paddingTop="2dip"
-            android:textSize="12sp"
+            android:textSize="18sp"
             android:textColor="?android:attr/textColorPrimary"
             style="@style/label_shadow" />
 
